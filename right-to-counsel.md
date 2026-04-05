@@ -20,7 +20,7 @@ In practice, suspects are read their rights and immediately asked to waive them,
 
 This amendment would close the gap by requiring that a person actually speak with an attorney about their case before they can waive the right to have one. It does not prevent anyone from representing themselves — it ensures that the decision to do so is an informed one.
 
-[→ Read the deep dive on the Right to Counsel](/amendments/right-to-counsel/deep-dive) *(coming soon)*
+[→ Read the deep dive](/deep-dive#right-to-counsel)
 
 ## References
 

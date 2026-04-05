@@ -20,7 +20,7 @@ When a person or company cannot even acknowledge that a warrant exists, there is
 
 This amendment would not prevent law enforcement from executing lawful warrants — it would prevent them from hiding the fact that they did so. Transparency and accountability are not obstacles to justice; they are prerequisites for it.
 
-[→ Read the deep dive on Gag Orders](/amendments/no-gag-orders/deep-dive) *(coming soon)*
+[→ Read the deep dive](/deep-dive#no-gag-orders)
 
 ## References
 

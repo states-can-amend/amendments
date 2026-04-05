@@ -24,7 +24,7 @@ Meanwhile, governments around the world are pushing for backdoors in encryption 
 
 This amendment establishes a clear rule: your digital self is your self, and the protections against self-incrimination apply fully.
 
-[→ Read the deep dive on Digital Privacy](/amendments/digital-privacy/deep-dive) *(coming soon)*
+[→ Read the deep dive](/deep-dive#digital-privacy)
 
 ## References
 

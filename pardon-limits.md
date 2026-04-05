@@ -22,7 +22,7 @@ This amendment does not eliminate the pardon power. It draws a bright line aroun
 
 History has shown that the honor system is insufficient to prevent abuse of this power. Structural limits are needed.
 
-[→ Read the deep dive on Pardon Limits](/amendments/pardon-limits/deep-dive) *(coming soon)*
+[→ Read the deep dive](/deep-dive#pardon-limits)
 
 ## References
 

@@ -22,7 +22,7 @@ At the current federal minimum wage of $7.25/hour, ten times that rate would be 
 
 More fundamentally, this amendment says that the people who write the laws should live closer to the economic reality of the people those laws affect.
 
-[→ Read the deep dive on Legislative Compensation](/amendments/legislative-compensation/deep-dive) *(coming soon)*
+[→ Read the deep dive](/deep-dive#legislative-compensation)
 
 ## References
 

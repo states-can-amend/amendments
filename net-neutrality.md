@@ -20,7 +20,7 @@ Federal net neutrality rules have been adopted and repealed multiple times depen
 
 Without structural protection, internet service providers can create "fast lanes" for those who pay more, throttle competitors, and shape what information reaches citizens — effectively creating a toll road on the marketplace of ideas.
 
-[→ Read the deep dive on Net Neutrality](/amendments/net-neutrality/deep-dive) *(coming soon)*
+[→ Read the deep dive](/deep-dive#net-neutrality)
 
 ## References
 

@@ -22,7 +22,7 @@ While some states have adopted early voting, mail-in voting, or limited time-off
 
 Section 2 goes further by explicitly protecting voters from retaliation. It is not enough to give someone time to vote if their employer can make them pay for it through reduced hours, poor assignments, or termination. The right to vote must be a protected activity, just as the right to organize is under labor law.
 
-[→ Read the deep dive on Election Holidays](/amendments/election-holidays/deep-dive) *(coming soon)*
+[→ Read the deep dive](/deep-dive#election-holidays)
 
 ## References
 
