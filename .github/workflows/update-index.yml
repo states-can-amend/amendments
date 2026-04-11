@@ -1,0 +1,46 @@
+name: Update index.toml
+
+on:
+  push:
+    branches: [main]
+    paths: ["*.md"]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Generate index.toml
+        run: python3 generate-index.py
+
+      - name: Open PR if changed
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if git diff --quiet index.toml; then
+            echo "index.toml unchanged — nothing to do"
+            exit 0
+          fi
+
+          branch="auto/update-index"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$branch"
+          git add index.toml
+          git commit -m "Update index.toml"
+          git push -f origin "$branch"
+
+          existing=$(gh pr list --head "$branch" --state open --json number -q '.[0].number')
+          if [ -n "$existing" ]; then
+            echo "PR #$existing already open — force-pushed update"
+          else
+            gh pr create \
+              --head "$branch" \
+              --title "Update index.toml" \
+              --body "Auto-generated from amendment frontmatter changes. Review and merge when ready."
+          fi
