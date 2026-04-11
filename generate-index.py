@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-"""Generate index.json from amendment markdown frontmatter.
+"""Generate index.toml from amendment markdown frontmatter.
 
 Reads all *.md files in the repo root, extracts YAML frontmatter,
-and writes a sorted index.json. Skips files without valid frontmatter.
+and writes a sorted index.toml. Skips files without valid frontmatter.
 """
 
-import json
 import pathlib
 import sys
 import re
@@ -28,11 +27,24 @@ def parse_frontmatter(text):
             continue
         key, _, value = line.partition(":")
         value = value.strip().strip('"').strip("'")
-        # Convert numeric strings
         if value.isdigit():
             value = int(value)
         meta[key.strip()] = value
     return meta
+
+
+def to_toml(index):
+    """Serialize amendment index to TOML format."""
+    lines = ["# Auto-generated from amendment frontmatter — do not edit manually.", ""]
+    for item in index:
+        lines.append("[[amendments]]")
+        for k, v in item.items():
+            if isinstance(v, str):
+                lines.append(f'{k} = "{v}"')
+            else:
+                lines.append(f"{k} = {v}")
+        lines.append("")
+    return "\n".join(lines)
 
 
 def main():
@@ -50,9 +62,9 @@ def main():
 
     index.sort(key=lambda a: a.get("order", 99))
 
-    out = repo_root / "index.json"
-    out.write_text(json.dumps(index, indent=2, ensure_ascii=False) + "\n")
-    print(f"\nWrote {len(index)} amendments to index.json")
+    out = repo_root / "index.toml"
+    out.write_text(to_toml(index), encoding="utf-8")
+    print(f"\nWrote {len(index)} amendments to index.toml")
     return 0
 
 
