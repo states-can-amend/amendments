@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Net Neutrality",
+    "slug": "net-neutrality",
+    "summary": "Enshrine equal access to information and prohibit interference with internet traffic.",
+    "status": "draft",
+    "order": 1
+  },
+  {
+    "title": "No Gag Orders on Warrants",
+    "slug": "no-gag-orders",
+    "summary": "Prohibit secrecy orders that prevent targets of government warrants from discussing them.",
+    "status": "draft",
+    "order": 2
+  },
+  {
+    "title": "Legislative Compensation",
+    "slug": "legislative-compensation",
+    "summary": "Cap congressional pay at ten times the federal minimum wage.",
+    "status": "draft",
+    "order": 3
+  },
+  {
+    "title": "Election Holidays",
+    "slug": "election-holidays",
+    "summary": "Make all election days holidays and protect the right to vote from employer retaliation.",
+    "status": "draft",
+    "order": 4
+  },
+  {
+    "title": "Right to Informed Legal Counsel",
+    "slug": "right-to-counsel",
+    "summary": "Require that citizens consult an attorney before waiving the right to legal representation.",
+    "status": "draft",
+    "order": 5
+  },
+  {
+    "title": "Limits on Pardons",
+    "slug": "pardon-limits",
+    "summary": "Prevent executives from pardoning themselves, their family, or their associates.",
+    "status": "draft",
+    "order": 6
+  },
+  {
+    "title": "Digital Privacy and Self-Incrimination",
+    "slug": "digital-privacy",
+    "summary": "Extend Fifth Amendment protections to digital devices, biometrics, passwords, and encryption keys.",
+    "status": "draft",
+    "order": 7
+  },
+  {
+    "title": "Algorithmic Redistricting",
+    "slug": "algorithmic-redistricting",
+    "summary": "Require all legislative district boundaries to be drawn by mathematical criteria with a mandatory compactness metric and partisan fairness test, eliminating human manipulation.",
+    "status": "draft",
+    "order": 8
+  },
+  {
+    "title": "Fair Apportionment — Wyoming Rule",
+    "slug": "fair-apportionment-a",
+    "summary": "Uncap the House of Representatives using the Wyoming Rule: one representative per smallest-state population unit.",
+    "status": "draft",
+    "order": 9,
+    "group": "fair-apportionment",
+    "group_label": "Fair Apportionment",
+    "alternative": "A"
+  },
+  {
+    "title": "Fair Apportionment — Proportional Representation",
+    "slug": "fair-apportionment-b",
+    "summary": "Double the Wyoming Rule seat count, replace single-member districts with multi-member districts and ranked choice voting.",
+    "status": "draft",
+    "order": 10,
+    "group": "fair-apportionment",
+    "group_label": "Fair Apportionment",
+    "alternative": "B"
+  },
+  {
+    "title": "Term and Age Limits for Federal Office",
+    "slug": "term-age-limits",
+    "summary": "Set term limits for Congress and age limits for all federal elected officials and Supreme Court justices.",
+    "status": "draft",
+    "order": 11
+  },
+  {
+    "title": "Congressional Equal Application",
+    "slug": "congressional-equal-application",
+    "summary": "Ban Congress from passing laws that exempt themselves, and guarantee the people and the states the right to enforce it.",
+    "status": "draft",
+    "order": 12
+  }
+]
